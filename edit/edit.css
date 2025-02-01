@@ -1,0 +1,44 @@
+
+body{
+    background: linear-gradient(4deg, #2e3254, #8d5d8b);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    position:absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    /* align-self: flex-start !important; */
+}
+
+
+.logo h1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    
+    background-color: rgb(60, 59, 59);
+    color: white;
+    border-radius: 50px;
+    position: absolute;
+}
+
+
+.signin-container{
+    /* border: 1px solid black; */
+    /* width: 100%; */
+    padding: 10px 20px;
+    
+}
+
+.center-button {
+    display: block;
+    margin: 0 auto;
+}
+
